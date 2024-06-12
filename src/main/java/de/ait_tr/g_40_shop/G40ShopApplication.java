@@ -11,3 +11,5 @@ public class G40ShopApplication {
 	}
 
 }
+
+//start.spring.io

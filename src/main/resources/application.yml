@@ -8,3 +8,14 @@ spring:
     driver-class.name: org.postgresql.Driver
   liquibase:
     change-log: classpath:db/changelog/db.changelog-master.xml
+  jpa:
+    properties:
+      hibernate:
+        auto_quote_keywords: true
+
+
+logging:
+  file:
+    name: logs/log.log
+  level:
+    root: info
